@@ -1,0 +1,9 @@
+app:
+  name: nginx-deployment
+  image: nginx:latest
+  env: prod
+replicaCount: 2
+message: "Hello from prod!"
+environment: "prod"
+service:
+  type: NodePort

@@ -1,0 +1,8 @@
+app:
+  name: nginx-deployment
+  image: nginx:latest
+  env: dev
+replicaCount: 1
+message: "Hello from dev!"
+service:
+  type: NodePort
